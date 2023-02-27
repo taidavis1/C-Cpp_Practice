@@ -1,0 +1,54 @@
+1. Hello World (2 points)
+
+Write a program that prints out "Hi, my name is <Your Name>!"
+
+
+===================================================================================================
+
+
+2. Area of a Circle (2 points)
+
+Create a program that asks for the radius of a circle and prints the area of that circle.
+
+
+===================================================================================================
+
+3. Counting Words (4 points)
+
+Create a program that opens a file named words.txt and counts the whitespace-separated words in that file.
+
+-- words.txt
+This is a file that contains many words. 
+Yes it does have so many words. Many, many words.
+Well, maybe it is not that many after all.
+So, just how many is MANY?
+--
+
+
+===================================================================================================
+
+4. Word Occurrences (4 points)
+
+Create a program that reads in a word from the user and counts the number of occurrences of that word in a file called words.txt.
+
+-- words.txt
+This is a file that contains many words. 
+Yes it does have so many words. Many, many words.
+Well, maybe it is not that many after all.
+So, just how many is MANY?
+--
+
+
+===================================================================================================
+
+
+5. Reversing a File (4 points)
+
+The FillVector.cpp program opens a file and prints its lines, with a number at the beginning of each line.
+Modify the program in the following ways:
+1) First, make it read and print the lines of a file called "code.cpp".
+2) Second, print the same content with the line numbers reversed (i.e. starting with the highest number and counting down).
+
+
+6. Concatenation (4 points)
+Change Fillvector.cpp so that it concatenates all the elements in the vector into a single string before printing it out (WITHOUT adding line numbering). Again, read the file named "code.cpp" as in the previous exercise.

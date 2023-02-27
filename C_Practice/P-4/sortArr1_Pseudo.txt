@@ -1,0 +1,66 @@
+sortArr(method, arr_size , arr[]):
+
+	if method == 1 do:
+		
+		for i = 0 to arr_size do:
+
+			max -> arr[i]
+
+			i_max -> i
+
+			for j = i + 1 to arr_size do:
+
+				if arr[i] < arr[j]:
+
+					max -> arr[j]
+
+					i_max -> j
+
+					if i_max != i:
+					
+						swap(arr[i] , arr[i_max])
+
+					endif
+
+				endif
+
+			endfor
+
+		endfor
+
+	endif
+
+
+	if method == 2 do:
+		
+		for i = 0 to arr_size do:
+
+			min -> arr[i]
+
+			i_min -> i
+
+			for j = i + 1 to arr_size do:
+
+				if arr[i] > arr[j]:
+
+					min -> arr[j]
+
+					i_min -> j
+
+					if i_min != i:
+
+						swap(arr[i] , arr[i_max])
+
+					endif
+
+				endif
+
+			endfor
+
+		endfor
+
+	endif
+
+
+
+

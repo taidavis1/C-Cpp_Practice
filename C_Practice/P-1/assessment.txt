@@ -1,0 +1,8 @@
+1) You change the executable name from main to cselab by using this linux
+command: mv main cselab 
+
+2) When you complie g++ <source> it will automatic turn to a.out.
+
+3) If we remove namespace std, we could also compile by using std::cout where
+cout is in the standard libary , so everything is inside std you use std::<object in standard libary>
+

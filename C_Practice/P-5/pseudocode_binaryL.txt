@@ -1,0 +1,34 @@
+BinarySearchL(arr, arr_size , k):
+
+    half = arr_size/2;
+
+    if half == k:
+
+        return half;
+
+    endif
+
+    else:
+
+        for(int i = 0 ; i < half ; i++):
+
+            if arr[i] == k:
+
+                return i
+
+            endif
+
+        endfor
+
+        for(int i = haf ; i < size ; i++){
+
+            if arr[i] == k:
+
+                return i
+
+            endif
+
+        }
+
+    end else
+

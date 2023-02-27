@@ -1,0 +1,32 @@
+BinarySearchR(arr, arr_size , k):
+
+    last = arr_size
+
+    first = 0
+
+    half = first + (last - first) / 2;
+
+    if arr[half] == k:
+
+        return half;
+
+    endif
+
+    else:
+
+        if arr[half] > k:
+
+            BinarySearch(arr , half-1 , k)
+
+        endif
+
+        if arr[half] < k:
+
+            BinarySearch(arr , last + 1 , k)
+
+        endif
+        
+    end else
+
+    return -1
+

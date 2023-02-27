@@ -1,0 +1,48 @@
+* Start
+* Ask user enter the size of the array , and store it
+
+* Create a integer array contain the size of array user enter
+
+* if size of array < 0 (which is the size is negative):
+
+    * Output the error
+
+* else:
+
+    * Insert user input for elements to array
+
+    * for i = 0 , i < array size , i++ :
+
+        * store user input in variable call numbers
+
+    * endfor
+
+    * Check if elements in array increasing
+
+    * for i =  0 ; i < array_size , i++ :
+
+        * if array[i] > array[i+1]:
+
+            * case + 1
+
+        * end if
+
+    * endfor
+
+* end else
+
+* if case == 0:
+
+    output "Incrasing Array"
+
+    output all elements from array
+
+else:
+
+    output "Descreasing"
+
+    output all elements from array
+
+end if
+
+

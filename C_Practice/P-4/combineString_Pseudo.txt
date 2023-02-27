@@ -1,0 +1,33 @@
+1) combineStr function:
+	
+	combineStr(s,a):
+		
+		s <-- string to output
+		a <-- how many times need to output s
+		for i <-- 0 to a do:
+			emptystring -> emptystring + s
+
+		endfor
+
+		return emptystring;
+
+
+2) Main function:
+
+	main():
+
+		s <-- string to output
+		
+		a <-- numbers of times to output
+
+		if a = 0 do:
+
+			exit function
+
+		endif
+
+	call out combineStr:
+
+		combineStr(s,a)
+
+		

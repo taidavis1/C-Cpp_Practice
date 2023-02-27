@@ -1,0 +1,47 @@
+sortArr(method, arr_size , arr[]):
+
+	if method == 1 do:
+		
+		for i = 1 to arr_size do:
+
+            save_nums -> arr[i]
+
+            j = j - 1
+
+            while arr[j] > save_nums:
+
+                arr[j+1] = arr[j]
+
+                j--
+
+            end while
+
+            arr[j+1] = save_nums
+
+        endfor
+
+	endif
+
+
+	if method == 2 do:
+		
+		for i = 1 to arr_size do:
+
+            save_nums -> arr[i]
+
+            j = j - 1
+
+            while arr[j] < save_nums:
+
+                arr[j+1] = arr[j]
+
+                j--;
+
+            end while
+
+            arr[j+1] = save_nums
+
+        endfor
+
+	endif
+
